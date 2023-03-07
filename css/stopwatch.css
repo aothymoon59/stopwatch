@@ -1,0 +1,59 @@
+#display-time {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 48px;
+    border: 1px solid purple;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#controls {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#start {
+    background-color: green;
+    color: white;
+}
+
+#start:hover {
+    background-color: #30b930;
+}
+
+#stop {
+    background-color: purple;
+    color: white;
+}
+
+#stop:hover {
+    background-color: #c845c8;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+}
+
+#reset:hover {
+    background-color: #f36363;
+}
